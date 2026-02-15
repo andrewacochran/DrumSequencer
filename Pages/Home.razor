@@ -1,24 +1,59 @@
 ﻿@page "/"
 
 <PageTitle>
-Home
+    Home
 </PageTitle>
 
-<h1>DrumSequencer</h1>
+<h1>MidiDiddy.com</h1>
 
 @code {
-private int CurrentStep = -1;
-private int BPM = 120;
-private bool IsPlaying = false;
-private List<Track> Tracks = new();
-private IJSObjectReference? _module;
-private DotNetObjectReference<Home>? _objRef;
+    private int CurrentStep = -1;
+    private int BPM = 120;
+    private bool IsPlaying = false;
+    private List<Track> Tracks = new();
+    private IJSObjectReference? _module;
+    private DotNetObjectReference<Home>? _objRef;
 
-protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnAfterRenderAsync(bool firstRender){
+        if (firstRender){
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/audio.js");
+            _objRef = DotNetObjectReference.Create(this);
+        }
+    }
 
-if (firstRender){
+    private async Task StartEngine(){
+        if (module != null){
+            await _module.InvokeVoidAsync("initAudio");
+            await _module.InvokeVoidAsync("loadSample", "kick", "samples/kick.wav");
+            // await _module.InvokeVoidAsync("setupMidi", _objRef);
+        }
+    }
 
-}
+    private async Task TogglePlay(){
+        IsPlaying = !IsPlaying;
+        if (IsPlaying){
+            _cst = new CancellationTokenSource();
+            _ = PlayLoop(_cst.Token);
+        }
+        else{
+            _cts?.Cancel();
+        }
+    }
 
+    private async Task PlayLoop(CancellationToken token){
+        while (!token.IsCancellationRequested)
+        {
+            foreach (var track in Tracks){
 
+                 if (Track.Steps[CurrentStep]){
+                     _ = _module?.InvokeVoidAsync("playSample", track.Name.ToLower());
+                 }
+
+                 CurrentStep = (CurrentStep + 1) % 16;
+                 StateHasChanged();
+                 var interval = 60000 / BPM / 4;
+                 await Task.Delay(interval, token);
+            }
+        }
+    }
 }
