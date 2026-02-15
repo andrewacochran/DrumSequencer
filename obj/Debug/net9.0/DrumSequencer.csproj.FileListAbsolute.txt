@@ -199,6 +199,8 @@
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
+/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.xkrr3vyjb7.wasm
+/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.t4f2daltna.pdb
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js.gz
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.j0mj4vhukl.wasm.gz
@@ -401,6 +403,8 @@
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
+/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.xkrr3vyjb7.wasm.gz
+/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.t4f2daltna.pdb.gz
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/package-lock.json
 /home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/package.json
@@ -615,6 +619,7 @@
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.AssemblyInfo.cs
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.csproj.CoreCompileInputs.cache
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.MvcApplicationPartsAssemblyInfo.cache
+/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.sourcelink.json
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Components.wasm
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm
@@ -1066,6 +1071,9 @@
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/um4a19h127-tjcz0u77k5.gz
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/ue8z51q5xg-tptq2av103.gz
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/0cx4phic7o-lfu7j35m59.gz
+/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/sl4mh2o0d9-xkrr3vyjb7.gz
+/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/vn0o9j69j3-t4f2daltna.gz
+/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/g5rqid0jr4-tb7bbuvb4b.gz
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/staticwebassets.build.json
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/staticwebassets.build.json.cache
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/staticwebassets.development.json
@@ -1075,11 +1083,3 @@
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/refint/DrumSequencer.dll
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.pdb
 /home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/ref/DrumSequencer.dll
-/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.bve8h9zi3n.wasm
-/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.h1ykzm9fml.pdb
-/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.bve8h9zi3n.wasm.gz
-/home/andrewcochran/Dev/DrumSequencer/bin/Debug/net9.0/wwwroot/_framework/DrumSequencer.h1ykzm9fml.pdb.gz
-/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/DrumSequencer.sourcelink.json
-/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/sl4mh2o0d9-bve8h9zi3n.gz
-/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/vn0o9j69j3-h1ykzm9fml.gz
-/home/andrewcochran/Dev/DrumSequencer/obj/Debug/net9.0/compressed/g5rqid0jr4-u4uk5u032y.gz
