@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrumSequencer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa765f623b10dcaaf3370fa82a9cdae7a8dfa07a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+989981d8ede3a7fbe9e1fa7ce5df2343f1ca043f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrumSequencer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrumSequencer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

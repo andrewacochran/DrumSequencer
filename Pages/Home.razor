@@ -92,15 +92,20 @@
     }
 
     private async Task StartEngine()
-    {
-        if (_module != null)
         {
-            await _module.InvokeVoidAsync("initAudio");
-            await _module.InvokeVoidAsync("loadSample", "kick", "samples/kick.wav");
-            // MIDI setup is commented out for now so we can test software-only!
-            // await _module.InvokeVoidAsync("setupMidi", _objRef);
+            if (_module != null)
+            {
+                // 1. Wake up the audio engine
+                await _module.InvokeVoidAsync("initAudio");
+
+                // 2. Load ALL the samples into memory
+                await _module.InvokeVoidAsync("loadSample", "kick", "samples/kick.wav");
+                await _module.InvokeVoidAsync("loadSample", "snare", "samples/snare.wav");
+                await _module.InvokeVoidAsync("loadSample", "hihat", "samples/hihat.wav");
+
+                // await _module.InvokeVoidAsync("setupMidi", _objRef);
+            }
         }
-    }
 
     private async Task TogglePlay()
     {

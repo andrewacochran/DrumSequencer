@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DrumSequencer",
   "resources": {
-    "hash": "sha256-sYo3NaVMJ90P0QAtDSGuRBA9yZVzVpgpappRTYEBJpw=",
+    "hash": "sha256-ENioErlFSpenbtGmcAii+lwd3xcb6COWmDVgglr/CDE=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.j0mj4vhukl.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h3xttq5c32.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "DrumSequencer.yet36b9e6o.wasm": "DrumSequencer.wasm",
-      "DrumSequencer.kycqggbvkg.pdb": "DrumSequencer.pdb"
+      "DrumSequencer.eg8vrrt533.wasm": "DrumSequencer.wasm",
+      "DrumSequencer.t8v0i8w7ce.pdb": "DrumSequencer.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.6m0hb3g78a.js": "sha256-oksVqHEW5dic8ULICrYkuUVNascZfAw7ZPMG45TR/ak="
@@ -412,10 +412,10 @@
       "WindowsBase.g3ep9asl8e.wasm": "sha256-ZNubnH6lgybyHtAdlMT40aDBYT2V7npJIDu1AwBtujs=",
       "mscorlib.l7xs6zruqy.wasm": "sha256-3waJ44t0BBPDuFSBnvKXk4ReWykH4S/GJoncIfrAlvg=",
       "netstandard.97to7qusgy.wasm": "sha256-K2fLR0yH1WiUkzlu09Y2p2sm9BhyhGsoYJBopqdIuV4=",
-      "DrumSequencer.yet36b9e6o.wasm": "sha256-qpkmh8R4Qqp+ZfEZ53LC2FKpBhIjRmeS1wX8dOfbGuU="
+      "DrumSequencer.eg8vrrt533.wasm": "sha256-jpNkVkOPKI1IWnTN6UmW5EPLzVSctp70M80J+wbFxhA="
     },
     "pdb": {
-      "DrumSequencer.kycqggbvkg.pdb": "sha256-5HuFJqsaO5u2BxenY06PYvyk4Cfla/p8781uHncFqf4="
+      "DrumSequencer.t8v0i8w7ce.pdb": "sha256-0y+jSR3a2nriw6NafQXqv3MRrsXcRRyeQdDtRSp0zyM="
     }
   },
   "cacheBootResources": true,
